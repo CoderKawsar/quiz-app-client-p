@@ -35,9 +35,9 @@ function Quiz() {
   };
 
   return (
-    <div className="w-6/12 flex px-4 justify-center items-center mx-auto h-[calc(100%-6.25rem)] bg-white bg-opacity-90 rounded">
+    <div className="w-11/12 md:w-6/12 flex px-4 justify-center items-center mx-auto h-[calc(100%-6.25rem)] bg-white bg-opacity-90 rounded">
       <div>
-        <h2 className="mb-1">
+        <h2 className="mb-8 md:mb-1">
           <span className="font-bold">Question:</span> {question.question}
         </h2>
         <h6 className="mb-2">
@@ -45,7 +45,7 @@ function Quiz() {
         </h6>
         <form onSubmit={handleAnswered}>
           {question?.answers?.map((option, index) => (
-            <div className="mb-1" key={index}>
+            <div className="mb-4 md:mb-1" key={index}>
               <input
                 type="radio"
                 name="answer"

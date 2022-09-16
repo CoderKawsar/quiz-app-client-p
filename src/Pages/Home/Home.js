@@ -11,7 +11,7 @@ function Home() {
         Start a quiz now
       </h1>
       <div className="flex h-full justify-center items-center">
-        <div className="w-6/12 grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center items-center">
+        <div className="w-11/12 md:w-6/12 grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center items-center">
           <SingleHomeItem title="HTML" img={htmlLogo} link="html" />
           <SingleHomeItem title="CSS" img={cssLogo} link="css" />
           <SingleHomeItem
