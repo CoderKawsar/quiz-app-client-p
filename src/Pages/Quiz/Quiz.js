@@ -63,7 +63,6 @@ function Quiz() {
             className="mt-6 rounded px-4 py-2 text-white bg-lime-700 hover:bg-lime-600 hover:text-black"
           >
             Next Question
-            {/* <Link to={nexUrl}>Next Question</Link> */}
           </button>
         </form>
       </div>
