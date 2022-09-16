@@ -94,7 +94,7 @@
         { "a": "<meter>" },
         { "b": "<range>" },
         { "c": "<measure>" },
-        { "d": "<" }
+        { "d": "<limit>" }
       ],
       "correctAnswer": "a"
     },
