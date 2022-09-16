@@ -1,0 +1,329 @@
+{
+  "html": [
+    {
+      "id": 1,
+      "question": "Who is making the Web standards?",
+      "answers": [
+        { "a": "Google" },
+        { "b": "The World Wide Web Consortium" },
+        { "c": "Microsoft" },
+        { "d": "Mozilla" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 2,
+      "question": "Which tag is used for largest heading?",
+      "answers": [
+        { "a": "head" },
+        { "b": "h1" },
+        { "c": "h6" },
+        { "d": "header" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 3,
+      "question": "Choose the correct HTML element to define important text.",
+      "answers": [
+        { "a": "<important>" },
+        { "b": "<b>" },
+        { "c": "<strong>" },
+        { "d": "<i>" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "How can you open a link in a new tab/browser window?",
+      "answers": [
+        { "a": "<a href=\"url\" new>" },
+        { "b": "<a href=\"url\" target=new>" },
+        { "c": "<a href=\"url\" target=\"_blank\">" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 5,
+      "question": "How can you make a numbered list?",
+      "answers": [
+        { "a": "<ol>" },
+        { "b": "<list>" },
+        { "c": "<dl>" },
+        { "d": "<ul>" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "What is the correct HTML for making a input text area?",
+      "answers": [
+        { "a": "<textarea>" },
+        { "b": "<input type=\"textarea\">" },
+        { "c": "<input type=\"textbox\">" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "What is the correct HTML for inserting an image?",
+      "answers": [
+        { "a": "<image src=\"image.png\" alt=\"MyImage\">" },
+        { "b": "<img src=\"image.png\" alt=\"MyImage\">" },
+        { "c": "<Image src=\"image.png\" alt=\"MyImage\">" },
+        { "d": "<img alt=\"MyImage\">src=\"image.png\"</img>" }
+      ],
+      "correctAnswer": "b"
+    },
+
+    {
+      "id": 8,
+      "question": "Graphics defined by SVG is in which format?",
+      "answers": [
+        { "a": "HTML" },
+        { "b": "PSD" },
+        { "c": "CSS" },
+        { "d": "XML" }
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 9,
+      "question": "Which HTML element is used to display a scalar measurement within a range?",
+      "answers": [
+        { "a": "<meter>" },
+        { "b": "<range>" },
+        { "c": "<measure>" },
+        { "d": "<" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "What is the correct HTML for making a drop-down list?",
+      "answers": [
+        { "a": "<input type=\"dropdown\">" },
+        { "b": "<select>" },
+        { "c": "<input type=\"list\">" },
+        { "d": "<list>" }
+      ],
+      "correctAnswer": "b"
+    }
+  ],
+  "css": [
+    {
+      "id": 1,
+      "question": "What does CSS stand for?",
+      "answers": [
+        { "a": "Computer Style Sheets" },
+        { "b": "Colourful Style Sheets" },
+        { "c": "Creative Style Sheets" },
+        { "d": "Cascading Style Sheets" }
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 2,
+      "question": "What is the correct HTML for referring to an external style sheet?",
+      "answers": [
+        {
+          "a": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.cs\">"
+        },
+        {
+          "b": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.style\">"
+        },
+        {
+          "c": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+        },
+        { "d": "<stylesheet>mystyle.css</stylesheet>" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 3,
+      "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "answers": [
+        { "a": "At the end of the document" },
+        { "b": "In the <body> section" },
+        { "c": "In the <head> section" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 4,
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "answers": [
+        { "a": "<script>" },
+        { "b": "<style>" },
+        { "c": "<css>" },
+        { "d": "<internal>" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 5,
+      "question": "Which HTML attribute is used to define inline styles?",
+      "answers": [
+        { "a": "<style>" },
+        { "b": "<styles>" },
+        { "c": "<css>" },
+        { "d": "<class>" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "How do you insert a comment in a CSS file?",
+      "answers": [
+        { "a": "// this is a comment //" },
+        { "b": "' // this is a comment" },
+        { "b": "// this is a comment" },
+        { "d": "/* this is a comment */" }
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 7,
+      "question": "How do you add a background color for all <h1> elements?",
+      "answers": [
+        { "a": "h1.all {background-color:#FFFFFF;}" },
+        { "b": "h1 {background-color:#FFFFFF;}" },
+        { "c": "all.h1 {background-color:#FFFFFF;}" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 8,
+      "question": "How do you display hyperlinks without an underline?",
+      "answers": [
+        { "a": "a {decoration:no-underline;}" },
+        { "b": "a {underline:none;}" },
+        { "c": "a {text-decoration:no-underline;}" },
+        { "d": "a {text-decoration:none;}" }
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 9,
+      "question": "How do you display a border like this: The top border = 10 pixels. The bottom border = 5 pixels. The left border = 20 pixels. The right border = 1pixel?",
+      "answers": [
+        { "a": "border-width:10px 1px 5px 20px;" },
+        { "b": "border-width:5px 20px 10px 1px;" },
+        { "c": "border-width:10px 5px 20px 1px;" },
+        { "d": "border-width:10px 20px 5px 1px;" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 10,
+      "question": "What is the default value of the position property?",
+      "answers": [
+        { "a": "absolute" },
+        { "b": "relative" },
+        { "c": "fixed" },
+        { "d": "static" }
+      ],
+      "correctAnswer": "d"
+    }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "question": "Do you know what will be the output of this code?",
+      "code": "console.log(false == '0');",
+      "answers": [{ "a": "True" }, { "b": "false" }],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 2,
+      "question": "A javascript variable is declared with which of the following keyword?",
+      "answers": [
+        { "a": "new" },
+        { "b": "int" },
+        { "c": "sting" },
+        { "d": "var" }
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 3,
+      "question": "Do you know what will be the output of this code?",
+      "code": "let array = [1, 2, 3]; array[6] = 9; console.log(array[5]);",
+      "answers": [{ "a": 1 }, { "b": 2 }, { "c": 9 }, { "d": "undefined" }],
+      "correctAnswer": "d"
+    },
+    {
+      "id": 4,
+      "question": "Do you know what will be the output of this code?",
+      "code": "console.log(3 > 2 > 1);",
+      "answers": [{ "a": "True" }, { "b": "false" }],
+      "correctAnswer": "b"
+    },
+    {
+      "id": 5,
+      "question": "Do you know what will be the output of this code?",
+      "code": "console.log(typeof typeof 1);",
+      "answers": [
+        { "a": "string" },
+        { "b": "number" },
+        { "c": "1" },
+        { "d": "true" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 6,
+      "question": "How you'll append a value to an array of JavaScript?",
+      "answers": [
+        { "a": "arr[arr.length] = value" },
+        { "b": "arr[arr.length+1] = new Arrays()" },
+        { "c": "arr[arr.length-1] = value" },
+        { "d": "arr[arr.length*1] = value" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 7,
+      "question": "How does Java Script store dates in objects of Date type?",
+      "answers": [
+        { "a": "The number of days since January 1st, 1900" },
+        { "b": "The number of seconds since January 1st, 1970" },
+        { "c": "The number of milliseconds since January 1st, 1970" },
+        { "d": "The number of picoseconds since January 1st, 1970" }
+      ],
+      "correctAnswer": "c"
+    },
+
+    {
+      "id": 8,
+      "question": "Do you know what will be the output of this code?",
+      "code": "x=1;console.log('x = '+x);var x;",
+      "answers": [
+        { "a": "x = 1" },
+        { "b": "error: x is undefined" },
+        { "c": "x = undefined" },
+        { "d": "x = null" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": 9,
+      "question": "Do you know what will be the output of this code?",
+      "code": "console.log(018 - 015);",
+      "answers": [{ "a": "NaN" }, { "b": 3 }, { "c": 5 }, { "d": 13 }],
+      "correctAnswer": "c"
+    },
+    {
+      "id": 10,
+      "question": "Can you guess the result?",
+      "code": "console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());",
+      "answers": [
+        { "a": "baaa" },
+        { "b": "banana" },
+        { "c": "baba" },
+        { "d": "babaa" }
+      ],
+      "correctAnswer": "b"
+    }
+  ]
+}
